@@ -46,6 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=JLCPCB PCBA
 
 [Preferences]
 PrefsVaultGUID=
@@ -339,6 +340,33 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SHFUQWTI
+
+[Document18]
+DocumentPath=VBATT Sense.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XVSTIEOL
+
+[ProjectVariant1]
+UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
+Description=JLCPCB PCBA
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternatePart=
+Variation2=Designator=R12|UniqueId=\FQQMOOUO\ZXQZSVQB\RDWVKYFL|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [Parameter1]
 Name=Approv_Date_Chk

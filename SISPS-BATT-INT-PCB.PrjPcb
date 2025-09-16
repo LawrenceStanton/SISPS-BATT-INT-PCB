@@ -392,6 +392,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document21]
+DocumentPath=VREG.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=POIPJKWW
+
 [ProjectVariant1]
 UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
@@ -402,113 +419,189 @@ Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternateP
 Variation2=Designator=R12|UniqueId=\FQQMOOUO\ZXQZSVQB\RDWVKYFL|Kind=1|AlternatePart=
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\BOM\Bill of Materials.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP3
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.csv
+DItemRevisionGUID=
+
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=--/--/----
 
 [Parameter3]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter4]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter5]
-Name=Rev_No_1
-Value=-
+Name=Checker
+Value=JC Pead
 
 [Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CopyrightHolder
+Value=LD Stanton
 
 [Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=CopyrightYear
+Value=2025
 
 [Parameter8]
-Name=Rev_Desc_2
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter9]
-Name=Rev_Desc_1
+Name=DwgTitleLine1
 Value=- - - - -
 
 [Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
+Name=DwgTitleLine2
+Value=- - - - -
 
 [Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter12]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 S
 
 [Parameter13]
-Name=Rev_Date_1
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter14]
 Name=Project_Revision
 Value=v0.0
 
 [Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_1
+Value=--/--/----
 
 [Parameter16]
-Name=Licence
-Value=CERN OHL v2 S
+Name=Rev_Date_2
+Value=--/--/----
 
 [Parameter17]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter18]
-Name=DwgTitleLine2
-Value=- - - - -
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter19]
-Name=DwgTitleLine1
+Name=Rev_Desc_1
 Value=- - - - -
 
 [Parameter20]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_2
+Value=- - - - -
 
 [Parameter21]
-Name=CopyrightYear
-Value=2025
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter22]
-Name=CopyrightHolder
-Value=LD Stanton
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter23]
-Name=Checker
-Value=JC Pead
+Name=Rev_No_1
+Value=-
 
 [Parameter24]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=-
 
 [Parameter25]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter26]
-Name=Approv_Date_Eng
-Value=--/--/----
+Name=Rev_No_4
+Value=-
 
 [Parameter27]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources

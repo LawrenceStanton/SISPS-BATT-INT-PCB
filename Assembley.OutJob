@@ -15,10 +15,10 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Output Jobs.OutJob
+Name=Assembley.OutJob
 Description=
 TargetOutputMedium=Assembley Files
-VariantName=[No Variations]
+VariantName=JLCPCB PCBA
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=HP Officejet Pro 6830
@@ -217,7 +217,7 @@ PcbPrintPreferences15=
 [PublishSettings]
 OutputFilePath2=C:\ProgramData\Altium\Altium Designer {22209D72-253F-4169-B0DD-2BF7DB2CFB9C}\VaultEditCache\3298AF3A-DC58-4BDC-92F1-99370205655D\Released\Project Outputs for PRJT-0003-1\Documentation.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for PRJT-0003-1
+OutputBasePath2=Project Outputs for SISPS-BATT-INT-PCB
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -242,9 +242,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\
+OutputFilePath3=C:\Users\Public\Documents\Altium\SISPS-BATT-INT-PCB\Project Outputs for SISPS-BATT-INT-PCB\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for PRJT-0003-1
+OutputBasePath3=Project Outputs for SISPS-BATT-INT-PCB
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -259,7 +259,7 @@ OpenOutput3=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {22209D72-253F-4169-B0DD-2BF7DB2CFB9C}\VaultEditCache\3298AF3A-DC58-4BDC-92F1-99370205655D\Released\Project Outputs for PRJT-0003-1\Documentation.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\SISPS-BATT-INT-PCB\Project Outputs for SISPS-BATT-INT-PCB\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

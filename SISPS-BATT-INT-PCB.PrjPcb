@@ -240,23 +240,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=IDC Conn.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
 DocumentPath=RMS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -273,7 +256,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IGJSYHBT
 
-[Document14]
+[Document13]
 DocumentPath=ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -290,7 +273,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WWAEWSHG
 
-[Document15]
+[Document14]
 DocumentPath=ADC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -307,7 +290,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=ADC AIN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -324,7 +307,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GRELPCSC
 
-[Document17]
+[Document16]
 DocumentPath=EL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -341,7 +324,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SHFUQWTI
 
-[Document18]
+[Document17]
 DocumentPath=VBATT Sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -358,7 +341,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XVSTIEOL
 
-[Document19]
+[Document18]
 DocumentPath=SWD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -375,7 +358,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HOCQFGAG
 
-[Document20]
+[Document19]
 DocumentPath=SWD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -392,8 +375,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=VREG.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=POIPJKWW
+
+[Document21]
+DocumentPath=RS485.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FOGVQZWQ
+
+[Document22]
+DocumentPath=RS485.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -407,91 +424,128 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=POIPJKWW
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=3
 Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternatePart=
-Variation2=Designator=R12|UniqueId=\FQQMOOUO\ZXQZSVQB\RDWVKYFL|Kind=1|AlternatePart=
-ParamVariationCount=0
+Variation2=Designator=R?|UniqueId=\JSFGAVSR\POVYSLEO\JFENVFII|Kind=1|AlternatePart=
+Variation3=Designator=U14|UniqueId=\JSFGAVSR\POVYSLEO\DTKYKOHT|Kind=2|AlternatePart=ST485EBDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00142-1|AltLibLink_DesignItemID=CMP-00142-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=cea34f70-7644-49fc-b917-04fd2a80d880|AltLibLink_RevisionGUID=10281a88-1019-4803-bb43-8228bf29da60|AltLibLink_Footprint=SO-8 (ST485E) B|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=ST485EBDR
+ParamDesignator1=U14
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=U14
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator3=U14
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://www.st.com/resource/en/datasheet/st485ex.pdf
+ParamDesignator4=U14
+ParamVariation5=ParameterName=Description|VariantValue=15 kV ESD protected, low power RS-485/RS-422 transceiver, [-40oC, 85oC] temperature range
+ParamDesignator5=U14
+ParamVariation6=ParameterName=Footprint|VariantValue=SO-8 (ST485E) B
+ParamDesignator6=U14
+ParamVariation7=ParameterName=Ibis Model|VariantValue=
+ParamDesignator7=U14
+ParamVariation8=ParameterName=LCSC Part Number|VariantValue=C283496
+ParamDesignator8=U14
+ParamVariation9=ParameterName=Library Reference|VariantValue=CMP-00142-1
+ParamDesignator9=U14
+ParamVariation10=ParameterName=Max Operating Temperature|VariantValue=85°C
+ParamDesignator10=U14
+ParamVariation11=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator11=U14
+ParamVariation12=ParameterName=PCB3D|VariantValue=
+ParamDesignator12=U14
+ParamVariation13=ParameterName=Pin Info|VariantValue=
+ParamDesignator13=U14
+ParamVariation14=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator14=U14
+ParamVariation15=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator15=U14
+ParamVariation16=ParameterName=Simulation|VariantValue=
+ParamDesignator16=U14
+ParamVariationCount=16
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\BOM\Bill of Materials.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.EXTREP
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.G1
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBL
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.G1
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBO
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBS
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GM1
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP1
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP2
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP3
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTL
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GP3
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTO
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTS
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.REP
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-RoundHoles.TXT
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Gerber\Gerber Files.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-SlotHoles.TXT
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.DRR
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.LDP
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\NC Drill\NC Drill Files.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.csv
 DItemRevisionGUID=
 
@@ -1550,8 +1604,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Vault Name
 ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-009-00004-8
-ComponentSymbolReference0=Chip Resistor Array 2
+ComponentDesignItemID0=CMP-00118-1
+ComponentSymbolReference0=690367182672
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1571,47 +1625,19 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Composition
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=LCSC Part Number
 ParameterUpdate3=1
-ParameterName4=LCSC Part Number
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=Placement
 ParameterUpdate5=1
-ParameterName6=Max Operating Temperature
-ParameterUpdate6=1
-ParameterName7=Min Operating Temperature
-ParameterUpdate7=1
-ParameterName8=Package
-ParameterUpdate8=1
-ParameterName9=Populate
-ParameterUpdate9=1
-ParameterName10=Power
-ParameterUpdate10=1
-ParameterName11=Temperature Coefficient
-ParameterUpdate11=1
-ParameterName12=Tolerance
-ParameterUpdate12=1
-ParameterName13=Value
-ParameterUpdate13=1
-ParameterName14=Value 1
-ParameterUpdate14=1
-ParameterName15=Value 2
-ParameterUpdate15=1
-ParameterName16=Voltage Rating
-ParameterUpdate16=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0606 (Vishay ACASN) A
+ModelName0=690367182672
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0606 (Vishay ACASN) B
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=0606 (Vishay ACASN) C
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

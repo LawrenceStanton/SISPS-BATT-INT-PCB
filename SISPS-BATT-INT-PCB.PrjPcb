@@ -52,6 +52,9 @@ CurrentVariant=JLCPCB PCBA
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=3
+
 [Document1]
 DocumentPath=Main.SchDoc
 AnnotationEnabled=1
@@ -448,10 +451,10 @@ UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=15
 Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternatePart=
 Variation2=Designator=R?|UniqueId=\JSFGAVSR\POVYSLEO\JFENVFII|Kind=1|AlternatePart=
-Variation3=Designator=U14|UniqueId=\JSFGAVSR\POVYSLEO\DTKYKOHT|Kind=2|AlternatePart=ST485EBDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00142-1|AltLibLink_DesignItemID=CMP-00142-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=cea34f70-7644-49fc-b917-04fd2a80d880|AltLibLink_RevisionGUID=10281a88-1019-4803-bb43-8228bf29da60|AltLibLink_Footprint=SO-8 (ST485E) B|AltLibLink_IsSameFootprint=True
+Variation3=Designator=U14|UniqueId=\JSFGAVSR\POVYSLEO\DTKYKOHT|Kind=2|AlternatePart=ST485EBDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00142-2|AltLibLink_DesignItemID=CMP-00142-2|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=cea34f70-7644-49fc-b917-04fd2a80d880|AltLibLink_RevisionGUID=448527fe-a585-4826-bbb9-a4f341b882b1|AltLibLink_Footprint=SO-8 (ST485E) B|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=ST485EBDR
 ParamDesignator1=U14
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -466,9 +469,9 @@ ParamVariation6=ParameterName=Footprint|VariantValue=SO-8 (ST485E) B
 ParamDesignator6=U14
 ParamVariation7=ParameterName=Ibis Model|VariantValue=
 ParamDesignator7=U14
-ParamVariation8=ParameterName=LCSC Part Number|VariantValue=C283496
+ParamVariation8=ParameterName=LCSC Part Number|VariantValue=C81186
 ParamDesignator8=U14
-ParamVariation9=ParameterName=Library Reference|VariantValue=CMP-00142-1
+ParamVariation9=ParameterName=Library Reference|VariantValue=CMP-00142-2
 ParamDesignator9=U14
 ParamVariation10=ParameterName=Max Operating Temperature|VariantValue=85°C
 ParamDesignator10=U14
@@ -485,7 +488,360 @@ ParamDesignator15=U14
 ParamVariation16=ParameterName=Simulation|VariantValue=
 ParamDesignator16=U14
 Variation4=Designator=J3|UniqueId=\ACRNIXXC\LIACBJOR|Kind=1|AlternatePart=
-ParamVariationCount=16
+Variation5=Designator=R30|UniqueId=\FQQMOOUO\XUDTMZVH\DOIYZGAK|Kind=1|AlternatePart=
+Variation6=Designator=R31|UniqueId=\FQQMOOUO\XUDTMZVH\YSNIXNMM|Kind=1|AlternatePart=
+Variation7=Designator=R44|UniqueId=\FQQMOOUO\NCMBKBAY\IRGMUDQT|Kind=1|AlternatePart=
+Variation8=Designator=U5|UniqueId=\FQQMOOUO\ZXQZSVQB\HZTXWGBO|Kind=2|AlternatePart=LTC1966HMS8#TRPBF|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00122-4|AltLibLink_DesignItemID=CMP-00122-4|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=9c13e36c-61ba-4479-90c4-976e2b130230|AltLibLink_RevisionGUID=00E29680-1ACB-4F4B-AA69-863D301A6EFF|AltLibLink_Footprint=MSOP-8 (LTC1966) B|AltLibLink_IsSameFootprint=True
+ParamVariation17=ParameterName=Comment|VariantValue=LTC1966HMS8#TRPBF
+ParamDesignator17=U5
+ParamVariation18=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator18=U5
+ParamVariation19=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator19=U5
+ParamVariation20=ParameterName=ComponentLink1URL|VariantValue=https://www.analog.com/media/en/technical-documentation/data-sheets/1966fb.pdf
+ParamDesignator20=U5
+ParamVariation21=ParameterName=Description|VariantValue=RMS to DC Converter, 1 Func, CMOS, PDSO8
+ParamDesignator21=U5
+ParamVariation22=ParameterName=Footprint|VariantValue=MSOP-8 (LTC1966) B
+ParamDesignator22=U5
+ParamVariation23=ParameterName=Ibis Model|VariantValue=
+ParamDesignator23=U5
+ParamVariation24=ParameterName=LCSC Part Number|VariantValue=C679067
+ParamDesignator24=U5
+ParamVariation25=ParameterName=Library Reference|VariantValue=CMP-00122-4
+ParamDesignator25=U5
+ParamVariation26=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator26=U5
+ParamVariation27=ParameterName=Max Supply Voltage|VariantValue=5.5V
+ParamDesignator27=U5
+ParamVariation28=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator28=U5
+ParamVariation29=ParameterName=Min Supply Voltage|VariantValue=2.7V
+ParamDesignator29=U5
+ParamVariation30=ParameterName=PCB3D|VariantValue=
+ParamDesignator30=U5
+ParamVariation31=ParameterName=Pin Info|VariantValue=
+ParamDesignator31=U5
+ParamVariation32=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator32=U5
+ParamVariation33=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator33=U5
+ParamVariation34=ParameterName=Simulation|VariantValue=
+ParamDesignator34=U5
+Variation9=Designator=U11|UniqueId=\PFTPHNZS\AGGLQSRV|Kind=2|AlternatePart=TPS71501DCKR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00146-1|AltLibLink_DesignItemID=CMP-00146-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=a4ea9258-1bb3-4044-92c9-208dadeae359|AltLibLink_RevisionGUID=c7faee64-debc-44fc-a375-35a407ddf99c|AltLibLink_Footprint=SOT-5 (DCK0005A) A|AltLibLink_IsSameFootprint=True
+ParamVariation35=ParameterName=Comment|VariantValue=TPS71501DCKR
+ParamDesignator35=U11
+ParamVariation36=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator36=U11
+ParamVariation37=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator37=U11
+ParamVariation38=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/cn/lit/ds/symlink/tps71501-ep.pdf?ts=1757343311963
+ParamDesignator38=U11
+ParamVariation39=ParameterName=Description|VariantValue=50mA 24V ultra-low-IQ low-dropout (LDO) voltage regulator 5-SC70 -40 to 125
+ParamDesignator39=U11
+ParamVariation40=ParameterName=Dropout Voltage|VariantValue=415mV
+ParamDesignator40=U11
+ParamVariation41=ParameterName=Footprint|VariantValue=SOT-5 (DCK0005A) A
+ParamDesignator41=U11
+ParamVariation42=ParameterName=Ibis Model|VariantValue=
+ParamDesignator42=U11
+ParamVariation43=ParameterName=LCSC Part Number|VariantValue=C149505
+ParamDesignator43=U11
+ParamVariation44=ParameterName=Library Reference|VariantValue=CMP-00146-1
+ParamDesignator44=U11
+ParamVariation45=ParameterName=Max Input Voltage|VariantValue=24V
+ParamDesignator45=U11
+ParamVariation46=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator46=U11
+ParamVariation47=ParameterName=Max Output Current|VariantValue=50mA
+ParamDesignator47=U11
+ParamVariation48=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator48=U11
+ParamVariation49=ParameterName=PCB3D|VariantValue=
+ParamDesignator49=U11
+ParamVariation50=ParameterName=Pin Info|VariantValue=
+ParamDesignator50=U11
+ParamVariation51=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator51=U11
+ParamVariation52=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator52=U11
+ParamVariation53=ParameterName=Simulation|VariantValue=
+ParamDesignator53=U11
+Variation10=Designator=U12|UniqueId=\PFTPHNZS\JAQMSIFY|Kind=2|AlternatePart=TPS71501DCKR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00146-1|AltLibLink_DesignItemID=CMP-00146-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=a4ea9258-1bb3-4044-92c9-208dadeae359|AltLibLink_RevisionGUID=c7faee64-debc-44fc-a375-35a407ddf99c|AltLibLink_Footprint=SOT-5 (DCK0005A) A|AltLibLink_IsSameFootprint=True
+ParamVariation54=ParameterName=Comment|VariantValue=TPS71501DCKR
+ParamDesignator54=U12
+ParamVariation55=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator55=U12
+ParamVariation56=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator56=U12
+ParamVariation57=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/cn/lit/ds/symlink/tps71501-ep.pdf?ts=1757343311963
+ParamDesignator57=U12
+ParamVariation58=ParameterName=Description|VariantValue=50mA 24V ultra-low-IQ low-dropout (LDO) voltage regulator 5-SC70 -40 to 125
+ParamDesignator58=U12
+ParamVariation59=ParameterName=Dropout Voltage|VariantValue=415mV
+ParamDesignator59=U12
+ParamVariation60=ParameterName=Footprint|VariantValue=SOT-5 (DCK0005A) A
+ParamDesignator60=U12
+ParamVariation61=ParameterName=Ibis Model|VariantValue=
+ParamDesignator61=U12
+ParamVariation62=ParameterName=LCSC Part Number|VariantValue=C149505
+ParamDesignator62=U12
+ParamVariation63=ParameterName=Library Reference|VariantValue=CMP-00146-1
+ParamDesignator63=U12
+ParamVariation64=ParameterName=Max Input Voltage|VariantValue=24V
+ParamDesignator64=U12
+ParamVariation65=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator65=U12
+ParamVariation66=ParameterName=Max Output Current|VariantValue=50mA
+ParamDesignator66=U12
+ParamVariation67=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator67=U12
+ParamVariation68=ParameterName=PCB3D|VariantValue=
+ParamDesignator68=U12
+ParamVariation69=ParameterName=Pin Info|VariantValue=
+ParamDesignator69=U12
+ParamVariation70=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator70=U12
+ParamVariation71=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator71=U12
+ParamVariation72=ParameterName=Simulation|VariantValue=
+ParamDesignator72=U12
+Variation11=Designator=U13|UniqueId=\PFTPHNZS\TMEFYDNX|Kind=2|AlternatePart=TPS71501DCKR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00146-1|AltLibLink_DesignItemID=CMP-00146-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=a4ea9258-1bb3-4044-92c9-208dadeae359|AltLibLink_RevisionGUID=c7faee64-debc-44fc-a375-35a407ddf99c|AltLibLink_Footprint=SOT-5 (DCK0005A) A|AltLibLink_IsSameFootprint=True
+ParamVariation73=ParameterName=Comment|VariantValue=TPS71501DCKR
+ParamDesignator73=U13
+ParamVariation74=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator74=U13
+ParamVariation75=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator75=U13
+ParamVariation76=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/cn/lit/ds/symlink/tps71501-ep.pdf?ts=1757343311963
+ParamDesignator76=U13
+ParamVariation77=ParameterName=Description|VariantValue=50mA 24V ultra-low-IQ low-dropout (LDO) voltage regulator 5-SC70 -40 to 125
+ParamDesignator77=U13
+ParamVariation78=ParameterName=Dropout Voltage|VariantValue=415mV
+ParamDesignator78=U13
+ParamVariation79=ParameterName=Footprint|VariantValue=SOT-5 (DCK0005A) A
+ParamDesignator79=U13
+ParamVariation80=ParameterName=Ibis Model|VariantValue=
+ParamDesignator80=U13
+ParamVariation81=ParameterName=LCSC Part Number|VariantValue=C149505
+ParamDesignator81=U13
+ParamVariation82=ParameterName=Library Reference|VariantValue=CMP-00146-1
+ParamDesignator82=U13
+ParamVariation83=ParameterName=Max Input Voltage|VariantValue=24V
+ParamDesignator83=U13
+ParamVariation84=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator84=U13
+ParamVariation85=ParameterName=Max Output Current|VariantValue=50mA
+ParamDesignator85=U13
+ParamVariation86=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator86=U13
+ParamVariation87=ParameterName=PCB3D|VariantValue=
+ParamDesignator87=U13
+ParamVariation88=ParameterName=Pin Info|VariantValue=
+ParamDesignator88=U13
+ParamVariation89=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator89=U13
+ParamVariation90=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator90=U13
+ParamVariation91=ParameterName=Simulation|VariantValue=
+ParamDesignator91=U13
+Variation12=Designator=U4|UniqueId=\FQQMOOUO\ZXQZSVQB\XDAUXWTW|Kind=2|AlternatePart=TLC2272AIDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00147-1|AltLibLink_DesignItemID=CMP-00147-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=f3461e44-e464-4aa3-8363-9cbad502c10a|AltLibLink_RevisionGUID=9866e6c3-36e0-42de-82ad-7ba94a622970|AltLibLink_Footprint=SOIC-8 (D008A) B|AltLibLink_IsSameFootprint=True
+ParamVariation92=ParameterName=Comment|VariantValue=TLC2272AIDR
+ParamDesignator92=U4
+ParamVariation93=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator93=U4
+ParamVariation94=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator94=U4
+ParamVariation95=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/lit/ds/symlink/tlc2272.pdf?ts=1754033641708&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2272%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-44700045336317476_prodfolderdynamic-cpc-pf-go
+ParamDesignator95=U4
+ParamVariation96=ParameterName=Description|VariantValue=Dual, low-noise, 2.18-MHz rail-to-rail operational amplifier 8-SOIC
+ParamDesignator96=U4
+ParamVariation97=ParameterName=Footprint|VariantValue=SOIC-8 (D008A) B
+ParamDesignator97=U4
+ParamVariation98=ParameterName=Ibis Model|VariantValue=
+ParamDesignator98=U4
+ParamVariation99=ParameterName=Input Bias Current|VariantValue=60pA
+ParamDesignator99=U4
+ParamVariation100=ParameterName=Input Offset Current|VariantValue=800pA
+ParamDesignator100=U4
+ParamVariation101=ParameterName=Input Offset Voltage|VariantValue=1.5mV
+ParamDesignator101=U4
+ParamVariation102=ParameterName=LCSC Part Number|VariantValue=C146678
+ParamDesignator102=U4
+ParamVariation103=ParameterName=Library Reference|VariantValue=CMP-00147-1
+ParamDesignator103=U4
+ParamVariation104=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator104=U4
+ParamVariation105=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator105=U4
+ParamVariation106=ParameterName=Output Current|VariantValue=50mA
+ParamDesignator106=U4
+ParamVariation107=ParameterName=PCB3D|VariantValue=
+ParamDesignator107=U4
+ParamVariation108=ParameterName=Pin Info|VariantValue=
+ParamDesignator108=U4
+ParamVariation109=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator109=U4
+ParamVariation110=ParameterName=Rail to Rail|VariantValue=Yes
+ParamDesignator110=U4
+ParamVariation111=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator111=U4
+ParamVariation112=ParameterName=Simulation|VariantValue=
+ParamDesignator112=U4
+ParamVariation113=ParameterName=Single Supply|VariantValue=Yes
+ParamDesignator113=U4
+ParamVariation114=ParameterName=Supply Max|VariantValue=8V
+ParamDesignator114=U4
+ParamVariation115=ParameterName=Supply Min|VariantValue=-8V
+ParamDesignator115=U4
+Variation13=Designator=U9|UniqueId=\FQQMOOUO\NCMBKBAY\XONPWIVS|Kind=2|AlternatePart=TLC2272AIDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00147-1|AltLibLink_DesignItemID=CMP-00147-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=f3461e44-e464-4aa3-8363-9cbad502c10a|AltLibLink_RevisionGUID=9866e6c3-36e0-42de-82ad-7ba94a622970|AltLibLink_Footprint=SOIC-8 (D008A) B|AltLibLink_IsSameFootprint=True
+ParamVariation116=ParameterName=Comment|VariantValue=TLC2272AIDR
+ParamDesignator116=U9
+ParamVariation117=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator117=U9
+ParamVariation118=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator118=U9
+ParamVariation119=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/lit/ds/symlink/tlc2272.pdf?ts=1754033641708&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2272%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-44700045336317476_prodfolderdynamic-cpc-pf-go
+ParamDesignator119=U9
+ParamVariation120=ParameterName=Description|VariantValue=Dual, low-noise, 2.18-MHz rail-to-rail operational amplifier 8-SOIC
+ParamDesignator120=U9
+ParamVariation121=ParameterName=Footprint|VariantValue=SOIC-8 (D008A) B
+ParamDesignator121=U9
+ParamVariation122=ParameterName=Ibis Model|VariantValue=
+ParamDesignator122=U9
+ParamVariation123=ParameterName=Input Bias Current|VariantValue=60pA
+ParamDesignator123=U9
+ParamVariation124=ParameterName=Input Offset Current|VariantValue=800pA
+ParamDesignator124=U9
+ParamVariation125=ParameterName=Input Offset Voltage|VariantValue=1.5mV
+ParamDesignator125=U9
+ParamVariation126=ParameterName=LCSC Part Number|VariantValue=C146678
+ParamDesignator126=U9
+ParamVariation127=ParameterName=Library Reference|VariantValue=CMP-00147-1
+ParamDesignator127=U9
+ParamVariation128=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator128=U9
+ParamVariation129=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator129=U9
+ParamVariation130=ParameterName=Output Current|VariantValue=50mA
+ParamDesignator130=U9
+ParamVariation131=ParameterName=PCB3D|VariantValue=
+ParamDesignator131=U9
+ParamVariation132=ParameterName=Pin Info|VariantValue=
+ParamDesignator132=U9
+ParamVariation133=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator133=U9
+ParamVariation134=ParameterName=Rail to Rail|VariantValue=Yes
+ParamDesignator134=U9
+ParamVariation135=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator135=U9
+ParamVariation136=ParameterName=Simulation|VariantValue=
+ParamDesignator136=U9
+ParamVariation137=ParameterName=Single Supply|VariantValue=Yes
+ParamDesignator137=U9
+ParamVariation138=ParameterName=Supply Max|VariantValue=8V
+ParamDesignator138=U9
+ParamVariation139=ParameterName=Supply Min|VariantValue=-8V
+ParamDesignator139=U9
+Variation14=Designator=U10|UniqueId=\FQQMOOUO\NCMBKBAY\RFBAZITX|Kind=2|AlternatePart=TLC2272AIDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00147-1|AltLibLink_DesignItemID=CMP-00147-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=f3461e44-e464-4aa3-8363-9cbad502c10a|AltLibLink_RevisionGUID=9866e6c3-36e0-42de-82ad-7ba94a622970|AltLibLink_Footprint=SOIC-8 (D008A) B|AltLibLink_IsSameFootprint=True
+ParamVariation140=ParameterName=Comment|VariantValue=TLC2272AIDR
+ParamDesignator140=U10
+ParamVariation141=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator141=U10
+ParamVariation142=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator142=U10
+ParamVariation143=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/lit/ds/symlink/tlc2272.pdf?ts=1754033641708&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2272%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-44700045336317476_prodfolderdynamic-cpc-pf-go
+ParamDesignator143=U10
+ParamVariation144=ParameterName=Description|VariantValue=Dual, low-noise, 2.18-MHz rail-to-rail operational amplifier 8-SOIC
+ParamDesignator144=U10
+ParamVariation145=ParameterName=Footprint|VariantValue=SOIC-8 (D008A) B
+ParamDesignator145=U10
+ParamVariation146=ParameterName=Ibis Model|VariantValue=
+ParamDesignator146=U10
+ParamVariation147=ParameterName=Input Bias Current|VariantValue=60pA
+ParamDesignator147=U10
+ParamVariation148=ParameterName=Input Offset Current|VariantValue=800pA
+ParamDesignator148=U10
+ParamVariation149=ParameterName=Input Offset Voltage|VariantValue=1.5mV
+ParamDesignator149=U10
+ParamVariation150=ParameterName=LCSC Part Number|VariantValue=C146678
+ParamDesignator150=U10
+ParamVariation151=ParameterName=Library Reference|VariantValue=CMP-00147-1
+ParamDesignator151=U10
+ParamVariation152=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator152=U10
+ParamVariation153=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator153=U10
+ParamVariation154=ParameterName=Output Current|VariantValue=50mA
+ParamDesignator154=U10
+ParamVariation155=ParameterName=PCB3D|VariantValue=
+ParamDesignator155=U10
+ParamVariation156=ParameterName=Pin Info|VariantValue=
+ParamDesignator156=U10
+ParamVariation157=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator157=U10
+ParamVariation158=ParameterName=Rail to Rail|VariantValue=Yes
+ParamDesignator158=U10
+ParamVariation159=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator159=U10
+ParamVariation160=ParameterName=Simulation|VariantValue=
+ParamDesignator160=U10
+ParamVariation161=ParameterName=Single Supply|VariantValue=Yes
+ParamDesignator161=U10
+ParamVariation162=ParameterName=Supply Max|VariantValue=8V
+ParamDesignator162=U10
+ParamVariation163=ParameterName=Supply Min|VariantValue=-8V
+ParamDesignator163=U10
+Variation15=Designator=U7|UniqueId=\FQQMOOUO\XUDTMZVH\XWQLTZDK|Kind=2|AlternatePart=TLC2272AIDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00147-1|AltLibLink_DesignItemID=CMP-00147-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=f3461e44-e464-4aa3-8363-9cbad502c10a|AltLibLink_RevisionGUID=9866e6c3-36e0-42de-82ad-7ba94a622970|AltLibLink_Footprint=SOIC-8 (D008A) B|AltLibLink_IsSameFootprint=True
+ParamVariation164=ParameterName=Comment|VariantValue=TLC2272AIDR
+ParamDesignator164=U7
+ParamVariation165=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator165=U7
+ParamVariation166=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator166=U7
+ParamVariation167=ParameterName=ComponentLink1URL|VariantValue=https://www.ti.com/lit/ds/symlink/tlc2272.pdf?ts=1754033641708&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2272%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-44700045336317476_prodfolderdynamic-cpc-pf-go
+ParamDesignator167=U7
+ParamVariation168=ParameterName=Description|VariantValue=Dual, low-noise, 2.18-MHz rail-to-rail operational amplifier 8-SOIC
+ParamDesignator168=U7
+ParamVariation169=ParameterName=Footprint|VariantValue=SOIC-8 (D008A) B
+ParamDesignator169=U7
+ParamVariation170=ParameterName=Ibis Model|VariantValue=
+ParamDesignator170=U7
+ParamVariation171=ParameterName=Input Bias Current|VariantValue=60pA
+ParamDesignator171=U7
+ParamVariation172=ParameterName=Input Offset Current|VariantValue=800pA
+ParamDesignator172=U7
+ParamVariation173=ParameterName=Input Offset Voltage|VariantValue=1.5mV
+ParamDesignator173=U7
+ParamVariation174=ParameterName=LCSC Part Number|VariantValue=C146678
+ParamDesignator174=U7
+ParamVariation175=ParameterName=Library Reference|VariantValue=CMP-00147-1
+ParamDesignator175=U7
+ParamVariation176=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator176=U7
+ParamVariation177=ParameterName=Min Operating Temperature|VariantValue=-40°C
+ParamDesignator177=U7
+ParamVariation178=ParameterName=Output Current|VariantValue=50mA
+ParamDesignator178=U7
+ParamVariation179=ParameterName=PCB3D|VariantValue=
+ParamDesignator179=U7
+ParamVariation180=ParameterName=Pin Info|VariantValue=
+ParamDesignator180=U7
+ParamVariation181=ParameterName=Placement|VariantValue=CRITICAL
+ParamDesignator181=U7
+ParamVariation182=ParameterName=Rail to Rail|VariantValue=Yes
+ParamDesignator182=U7
+ParamVariation183=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator183=U7
+ParamVariation184=ParameterName=Simulation|VariantValue=
+ParamDesignator184=U7
+ParamVariation185=ParameterName=Single Supply|VariantValue=Yes
+ParamDesignator185=U7
+ParamVariation186=ParameterName=Supply Max|VariantValue=8V
+ParamDesignator186=U7
+ParamVariation187=ParameterName=Supply Min|VariantValue=-8V
+ParamDesignator187=U7
+ParamVariationCount=187
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\BOM\Bill of Materials.csv
@@ -568,112 +924,112 @@ DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.cs
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=22/09/2025
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=29/09/2025
 
 [Parameter3]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter4]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter5]
-Name=Rev_No_1
-Value=v0.1
+Name=Checker
+Value=JC Pead
 
 [Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CopyrightHolder
+Value=LD Stanton
 
 [Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=CopyrightYear
+Value=2025
 
 [Parameter8]
-Name=Rev_Desc_2
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter9]
-Name=Rev_Desc_1
-Value=EIS Circuitry Prototype
+Name=DwgTitleLine1
+Value=- - - - -
 
 [Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
+Name=DwgTitleLine2
+Value=- - - - -
 
 [Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter12]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 S
 
 [Parameter13]
-Name=Rev_Date_1
-Value=29/09/2025
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter14]
 Name=Project_Revision
 Value=v0.1
 
 [Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter16]
-Name=Licence
-Value=CERN OHL v2 S
-
-[Parameter17]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter18]
-Name=DwgTitleLine2
-Value=- - - - -
-
-[Parameter19]
-Name=DwgTitleLine1
-Value=- - - - -
-
-[Parameter20]
-Name=CPL_DOC
-Value=Pick and Place.csv
-
-[Parameter21]
-Name=CopyrightYear
-Value=2025
-
-[Parameter22]
-Name=CopyrightHolder
-Value=LD Stanton
-
-[Parameter23]
-Name=Checker
-Value=JC Pead
-
-[Parameter24]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter25]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter26]
-Name=Approv_Date_Eng
+Name=Rev_Date_1
 Value=29/09/2025
 
+[Parameter16]
+Name=Rev_Date_2
+Value=--/--/----
+
+[Parameter17]
+Name=Rev_Date_3
+Value=--/--/----
+
+[Parameter18]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter19]
+Name=Rev_Desc_1
+Value=EIS Circuitry Prototype
+
+[Parameter20]
+Name=Rev_Desc_2
+Value=- - - - -
+
+[Parameter21]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter22]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter23]
+Name=Rev_No_1
+Value=v0.1
+
+[Parameter24]
+Name=Rev_No_2
+Value=-
+
+[Parameter25]
+Name=Rev_No_3
+Value=-
+
+[Parameter26]
+Name=Rev_No_4
+Value=-
+
 [Parameter27]
-Name=Approv_Date_Chk
-Value=22/09/2025
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources
@@ -684,6 +1040,42 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Fabrication.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly JLCPCB PCBA
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=JLCPCB PCBA
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembley.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembley.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SimulationProfiles]
 ActiveProfile=DQSKIOAJ

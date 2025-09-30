@@ -46,6 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
+CurrentVariant=JLCPCB PCBA
 
 [Preferences]
 PrefsVaultGUID=
@@ -450,7 +451,7 @@ UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=16
 Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternatePart=
 Variation2=Designator=R?|UniqueId=\JSFGAVSR\POVYSLEO\JFENVFII|Kind=1|AlternatePart=
 Variation3=Designator=U14|UniqueId=\JSFGAVSR\POVYSLEO\DTKYKOHT|Kind=2|AlternatePart=ST485EBDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00142-2|AltLibLink_DesignItemID=CMP-00142-2|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=cea34f70-7644-49fc-b917-04fd2a80d880|AltLibLink_RevisionGUID=448527fe-a585-4826-bbb9-a4f341b882b1|AltLibLink_Footprint=SO-8 (ST485E) B|AltLibLink_IsSameFootprint=True
@@ -840,6 +841,7 @@ ParamVariation186=ParameterName=Supply Max|VariantValue=8V
 ParamDesignator186=U7
 ParamVariation187=ParameterName=Supply Min|VariantValue=-8V
 ParamDesignator187=U7
+Variation16=Designator=P2|UniqueId=\OJASMCGS\HALILTOT|Kind=0|AlternatePart=
 ParamVariationCount=187
 
 [GeneratedDocument1]

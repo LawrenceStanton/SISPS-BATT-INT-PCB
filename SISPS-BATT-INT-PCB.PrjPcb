@@ -446,6 +446,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GZBOIALO
 
+[Document24]
+DocumentPath=Assembley.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVJ
+
+[Document25]
+DocumentPath=Fabrication.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVK
+
 [ProjectVariant1]
 UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
@@ -925,112 +959,112 @@ DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.cs
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=22/09/2025
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=29/09/2025
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=-
 
 [Parameter5]
-Name=Checker
-Value=JC Pead
+Name=Rev_No_1
+Value=v0.1
 
 [Parameter6]
-Name=CopyrightHolder
-Value=LD Stanton
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=CopyrightYear
-Value=2025
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter8]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_2
+Value=- - - - -
 
 [Parameter9]
-Name=DwgTitleLine1
-Value=- - - - -
+Name=Rev_Desc_1
+Value=EIS Circuitry Prototype
 
 [Parameter10]
-Name=DwgTitleLine2
-Value=- - - - -
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Licence
-Value=CERN OHL v2 S
+Name=Rev_Date_2
+Value=--/--/----
 
 [Parameter13]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_1
+Value=30/09/2025
 
 [Parameter14]
 Name=Project_Revision
 Value=v0.1
 
 [Parameter15]
-Name=Rev_Date_1
-Value=29/09/2025
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 S
 
 [Parameter17]
-Name=Rev_Date_3
-Value=--/--/----
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Date_4
-Value=--/--/----
+Name=DwgTitleLine2
+Value=Battery Unit Interposer
 
 [Parameter19]
-Name=Rev_Desc_1
-Value=EIS Circuitry Prototype
+Name=DwgTitleLine1
+Value=SISPS-BATT-INT-PCB
 
 [Parameter20]
-Name=Rev_Desc_2
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter21]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=CopyrightYear
+Value=2025
 
 [Parameter22]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CopyrightHolder
+Value=LD Stanton
 
 [Parameter23]
-Name=Rev_No_1
-Value=v0.1
+Name=Checker
+Value=JC Pead
 
 [Parameter24]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter25]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter26]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=29/09/2025
 
 [Parameter27]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=22/09/2025
 
 [Configuration1]
 Name=Sources

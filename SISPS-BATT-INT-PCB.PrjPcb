@@ -46,7 +46,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
-CurrentVariant=JLCPCB PCBA
 
 [Preferences]
 PrefsVaultGUID=
@@ -480,12 +479,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAQNPBVK
 
+[Document26]
+DocumentPath=BOM.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=5ba2dfe0-2804-4576-8c07-d0118f619c5f
 Description=JLCPCB PCBA
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
+VariationCount=15
 Variation1=Designator=R11|UniqueId=\FQQMOOUO\ZXQZSVQB\VBAXEGCL|Kind=1|AlternatePart=
 Variation2=Designator=R?|UniqueId=\JSFGAVSR\POVYSLEO\JFENVFII|Kind=1|AlternatePart=
 Variation3=Designator=U14|UniqueId=\JSFGAVSR\POVYSLEO\DTKYKOHT|Kind=2|AlternatePart=ST485EBDR|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=University of Cape Town|AltLibLink_SymbolReference=CMP-00142-2|AltLibLink_DesignItemID=CMP-00142-2|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=University of Cape Town|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8|AltLibLink_ItemGUID=cea34f70-7644-49fc-b917-04fd2a80d880|AltLibLink_RevisionGUID=448527fe-a585-4826-bbb9-a4f341b882b1|AltLibLink_Footprint=SO-8 (ST485E) B|AltLibLink_IsSameFootprint=True
@@ -875,7 +891,6 @@ ParamVariation186=ParameterName=Supply Max|VariantValue=8V
 ParamDesignator186=U7
 ParamVariation187=ParameterName=Supply Min|VariantValue=-8V
 ParamDesignator187=U7
-Variation16=Designator=P2|UniqueId=\OJASMCGS\HALILTOT|Kind=0|AlternatePart=
 ParamVariationCount=187
 
 [GeneratedDocument1]
@@ -959,112 +974,112 @@ DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.cs
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=22/09/2025
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=29/09/2025
 
 [Parameter3]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter4]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter5]
-Name=Rev_No_1
-Value=v0.1
+Name=Checker
+Value=JC Pead
 
 [Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CopyrightHolder
+Value=LD Stanton
 
 [Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=CopyrightYear
+Value=2025
 
 [Parameter8]
-Name=Rev_Desc_2
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter9]
-Name=Rev_Desc_1
-Value=EIS Circuitry Prototype
+Name=DwgTitleLine1
+Value=SISPS-BATT-INT-PCB
 
 [Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
+Name=DwgTitleLine2
+Value=Battery Unit Interposer
 
 [Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter12]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 S
 
 [Parameter13]
-Name=Rev_Date_1
-Value=30/09/2025
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter14]
 Name=Project_Revision
 Value=v0.1
 
 [Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_1
+Value=30/09/2025
 
 [Parameter16]
-Name=Licence
-Value=CERN OHL v2 S
+Name=Rev_Date_2
+Value=--/--/----
 
 [Parameter17]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter18]
-Name=DwgTitleLine2
-Value=Battery Unit Interposer
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter19]
-Name=DwgTitleLine1
-Value=SISPS-BATT-INT-PCB
+Name=Rev_Desc_1
+Value=EIS Circuitry Prototype
 
 [Parameter20]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_2
+Value=- - - - -
 
 [Parameter21]
-Name=CopyrightYear
-Value=2025
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter22]
-Name=CopyrightHolder
-Value=LD Stanton
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter23]
-Name=Checker
-Value=JC Pead
+Name=Rev_No_1
+Value=v0.1
 
 [Parameter24]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=-
 
 [Parameter25]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter26]
-Name=Approv_Date_Eng
-Value=29/09/2025
+Name=Rev_No_4
+Value=-
 
 [Parameter27]
-Name=Approv_Date_Chk
-Value=22/09/2025
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources

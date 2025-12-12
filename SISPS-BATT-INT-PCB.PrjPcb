@@ -974,112 +974,112 @@ DocumentPath=Project Outputs for SISPS-BATT-INT-PCB\Pick Place\Pick and Place.cs
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=22/09/2025
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=29/09/2025
-
-[Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter5]
-Name=Checker
-Value=JC Pead
-
-[Parameter6]
-Name=CopyrightHolder
-Value=LD Stanton
-
-[Parameter7]
-Name=CopyrightYear
-Value=2025
-
-[Parameter8]
-Name=CPL_DOC
-Value=Pick and Place.csv
-
-[Parameter9]
-Name=DwgTitleLine1
-Value=SISPS-BATT-INT-PCB
-
-[Parameter10]
-Name=DwgTitleLine2
-Value=Battery Unit Interposer
-
-[Parameter11]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter12]
-Name=Licence
-Value=CERN OHL v2 S
-
-[Parameter13]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter14]
-Name=Project_Revision
-Value=v0.1
-
-[Parameter15]
-Name=Rev_Date_1
-Value=30/09/2025
-
-[Parameter16]
-Name=Rev_Date_2
-Value=--/--/----
-
-[Parameter17]
-Name=Rev_Date_3
-Value=--/--/----
-
-[Parameter18]
-Name=Rev_Date_4
-Value=--/--/----
-
-[Parameter19]
-Name=Rev_Desc_1
-Value=EIS Circuitry Prototype
-
-[Parameter20]
-Name=Rev_Desc_2
-Value=- - - - -
-
-[Parameter21]
-Name=Rev_Desc_3
-Value=- - - - -
-
-[Parameter22]
-Name=Rev_Desc_4
-Value=- - - - -
-
-[Parameter23]
-Name=Rev_No_1
-Value=v0.1
-
-[Parameter24]
-Name=Rev_No_2
-Value=-
-
-[Parameter25]
-Name=Rev_No_3
-Value=-
-
-[Parameter26]
 Name=Rev_No_4
 Value=-
 
+[Parameter3]
+Name=Rev_No_3
+Value=-
+
+[Parameter4]
+Name=Rev_No_2
+Value=v0.2
+
+[Parameter5]
+Name=Rev_No_1
+Value=v0.1
+
+[Parameter6]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter7]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter8]
+Name=Rev_Desc_2
+Value=EIS Corrections
+
+[Parameter9]
+Name=Rev_Desc_1
+Value=EIS Circuitry Prototype
+
+[Parameter10]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter11]
+Name=Rev_Date_3
+Value=--/--/----
+
+[Parameter12]
+Name=Rev_Date_2
+Value=12/12/2025
+
+[Parameter13]
+Name=Rev_Date_1
+Value=30/09/2025
+
+[Parameter14]
+Name=Project_Revision
+Value=v0.2
+
+[Parameter15]
+Name=PCB_DOC
+Value=PCB.PcbDoc
+
+[Parameter16]
+Name=Licence
+Value=CERN OHL v2 S
+
+[Parameter17]
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
+
+[Parameter18]
+Name=DwgTitleLine2
+Value=Battery Unit Interposer
+
+[Parameter19]
+Name=DwgTitleLine1
+Value=SISPS-BATT-INT-PCB
+
+[Parameter20]
+Name=CPL_DOC
+Value=Pick and Place.csv
+
+[Parameter21]
+Name=CopyrightYear
+Value=2025
+
+[Parameter22]
+Name=CopyrightHolder
+Value=LD Stanton
+
+[Parameter23]
+Name=Checker
+Value=JC Pead
+
+[Parameter24]
+Name=BOM_DOC
+Value=Bill of Materials.csv
+
+[Parameter25]
+Name=ASM_DOC
+Value=Assembley.PCBDwf
+
+[Parameter26]
+Name=Approv_Date_Eng
+Value=12/12/2025
+
 [Parameter27]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=12/12/2025
 
 [Configuration1]
 Name=Sources
@@ -2074,10 +2074,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Vault Name
 ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-00143-1
-ComponentSymbolReference0=LM73100
+ComponentDesignItemID0=CMP-00028-00009-2
+ComponentSymbolReference0=Test Point
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Vault Name
+ComponentLibraryIdentifier1=University of Cape Town
+ComponentDesignItemID1=CMP-00140-1
+ComponentSymbolReference1=Test Point
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -2101,21 +2107,16 @@ ParameterName3=LCSC Part Number
 ParameterUpdate3=1
 ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Max Operating Temperature
+ParameterName5=Placement
 ParameterUpdate5=1
-ParameterName6=Max Supply Voltage
-ParameterUpdate6=1
-ParameterName7=Min Operating Temperature
-ParameterUpdate7=1
-ParameterName8=Min Supply Voltage
-ParameterUpdate8=1
-ParameterName9=Placement
-ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=VQFN-10 (LM73100) MFG
+ModelName0=Test Point Keystone 5000
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=Test Point Keystone 5001
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

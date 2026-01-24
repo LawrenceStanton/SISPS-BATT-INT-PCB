@@ -983,7 +983,7 @@ Value=-
 
 [Parameter3]
 Name=Rev_No_3
-Value=-
+Value=v0.2.1
 
 [Parameter4]
 Name=Rev_No_2
@@ -999,11 +999,11 @@ Value=- - - - -
 
 [Parameter7]
 Name=Rev_Desc_3
-Value=- - - - -
+Value=Impedance Measurement Corrections
 
 [Parameter8]
 Name=Rev_Desc_2
-Value=EIS Corrections
+Value=Faulty Release
 
 [Parameter9]
 Name=Rev_Desc_1
@@ -1015,7 +1015,7 @@ Value=--/--/----
 
 [Parameter11]
 Name=Rev_Date_3
-Value=--/--/----
+Value=24/01/2026
 
 [Parameter12]
 Name=Rev_Date_2
@@ -1027,7 +1027,7 @@ Value=30/09/2025
 
 [Parameter14]
 Name=Project_Revision
-Value=v0.2
+Value=v0.2.1
 
 [Parameter15]
 Name=PCB_DOC

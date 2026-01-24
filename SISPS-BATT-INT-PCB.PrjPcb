@@ -1055,7 +1055,7 @@ Value=Pick and Place.csv
 
 [Parameter21]
 Name=CopyrightYear
-Value=2025
+Value=2026
 
 [Parameter22]
 Name=CopyrightHolder
@@ -1075,11 +1075,11 @@ Value=Assembley.PCBDwf
 
 [Parameter26]
 Name=Approv_Date_Eng
-Value=12/12/2025
+Value=24/01/2026
 
 [Parameter27]
 Name=Approv_Date_Chk
-Value=12/12/2025
+Value=16/01/2026
 
 [Configuration1]
 Name=Sources

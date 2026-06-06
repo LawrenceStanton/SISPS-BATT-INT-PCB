@@ -158,7 +158,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TRIRKLQH
 
 [Document7]
-DocumentPath=EIS.SchDoc
+DocumentPath=MLP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
